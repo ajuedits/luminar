@@ -1,0 +1,14 @@
+#p1{
+    margin-left:25px;
+}
+#p2{
+    margin-left:25px;
+}
+#i1{
+    height:300px;
+    width:550px;
+}
+.card :hover{
+    background-color: rgb(255, 255, 255);
+    border: gray;
+}
