@@ -15,7 +15,8 @@
 <body>
  <div class="w-100" style="background-color: #5e068a;">
   <div class="row">
-    <p style="color: white;">have any questions</p>
+    <p style="color: white;">Have any questions?</p>
+    <p style="color: white; margin-left: 1000px;">contact@luminar technolab</p>
   </div>
  </div>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -28,7 +29,7 @@
       <div class="collapse navbar-collapse container" id="navbarNav" style="font-size: small;">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <a class="nav-link " aria-current="page" href="#">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">ABOUT</a>
@@ -49,58 +50,60 @@
     </div>
   </nav>
   <main>
-    <div id="carouselExampleCaptions" class="carousel slide bg-black" style="height: 75vh">
+    <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       </div>
+      <div class="col-lg-12 col-xs-12">
       <div class="carousel-inner">
-        <div class="carousel-item active" style="height: 75vh">
-          <img src="./images/never-stop-learning-3653430_1280.jpg" class="d-block w-100" alt="" style="opacity: 50%" />
-
+        <div class="carousel-item active">
+          <img style="height:600px;" src="./images/never-stop-learning-3653430_1280.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption text-start" style="top: 20vh">
-            <h1 class="fs-2%">
+            <h1 class="fs-2% col-s-12">
               Kerala's No.1 IT Finishing School<br />100% Placement Assistance
             </h1>
-            <p class="fs-5" style="width: 65%">
+            <p class="col-md-1 col-s-12" style="width: 65%">
               We at LUMINAR TECHNOLAB offers best software training and
               placement in emerging technologies like BIG DATA, Data Science,
               Machine Learning,PYTHON, Software Testing.
-            </p>
-            <button class="btn btn-lg btn-primary rounded-5" style="background-color: #5e068a; border: none">
-              VIEW COURSES
+            </p><br><br>
+            <button class="btn btn-lg btn-primary rounded-5" style="background-color: #5e068a; border-color: rgb(50, 4, 59);">view more</button>
+          </div>
+          <div class="container mt-2">
+            <button type="button" class="btn btn-lg btn-primary rounded-0 w-30px" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" style="background-color: #5e068a; border: none">
+              sign up
             </button>
           </div>
         </div>
-        <div class="carousel-item" style="height: 75vh">
-          <img src="./images/WhatsApp Image 2023-07-09 at 23.24.21.jpg" class="d-block w-100" style="opacity: 50%"
-            alt="" />
-          <div class="carousel-caption d-none d-md-block text-start" style="top: 10vh">
-            <h1>
-              Data Science, ML &amp; AI<br />
-              Big Data - Hadoop &amp; Spark <br />
-              Python Data Science
-            </h1>
-            <p class="fs-5" style="width: 65%">
-              We LUMINAR TECHNOLAB offers best software training and placement
-              in emerging technologies like Big Data, Hadoop, Spark,Data
-              Scince, Machine Learning, Deep Learning and AI.
-            </p>
-            <button class="btn btn-lg btn-primary rounded-5" style="background-color: #5e068a; border: none">
-              VIEW COURSES
-            </button>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
+        
+        <div class="col-lg-12 col-xs-12">
+          <div class="carousel-inner">
+            <div class="carousel-item ">
+              <img style="height:600px;" src="./images/WhatsApp Image 2023-07-09 at 23.24.21.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption text-start" style="top: 20vh">
+                <h1 class="fs-2% col-s-12">
+                  Data Science, ML &amp; AI<br />
+                  Big Data - Hadoop &amp; Spark <br />
+                  Python Data Science
+                </h1>
+                <p class="col-md-1 col-s-12" style="width: 65%">
+                  We LUMINAR TECHNOLAB offers best software training and placement
+                  in emerging technologies like Big Data, Hadoop, Spark,Data
+                  Scince, Machine Learning, Deep Learning and AI.
+                </p><br><br>
+                <button class="btn btn-lg btn-primary rounded-5 col-s-1" style="background-color: #5e068a; border: none">
+                  VIEW COURSES
+                </button>
+              </div>
+            </div>
+    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -184,7 +187,7 @@
   <div class="container bg-light">
     <h1 class="text-center" style="color: #5e068a;">OUR<span style="color: #7f489b;"> COURSES</span></h1><br>
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-md-6">
         <img id="i1" src="./images/data-science-1588143159.jpg" alt="">
       </div>
       <div class="col-lg-6">

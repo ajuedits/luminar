@@ -9,6 +9,5 @@
     width:550px;
 }
 .card :hover{
-    background-color: rgb(255, 255, 255);
     border: gray;
 }
