@@ -12,9 +12,7 @@
 .card :hover{
     border: gray;
 }
-#l1{
-    padding-left: 1000px;
-}
+
 #a1:hover{
     background-color: grey;
     color:gray;
