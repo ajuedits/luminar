@@ -5,24 +5,21 @@
     margin-left:25px;
 }
 #i1{
-    height:300px;
-    width:550px;
-    
+    height:350px;
+    width:500px;
 }
 .card :hover{
     border: gray;
 }
-
-#a1:hover{
-    background-color: grey;
-    color:gray;
-    box-shadow: grey;
-}
 #a2:hover{
-    background-color: grey;
+    background-color: rgb(147, 0, 233);
     color:gray;
     box-shadow: grey;
 }
 #o1:hover{
     color: grey;
+}
+#a2{
+  text-align: right;
+  margin-bottom: 200px;
 }
